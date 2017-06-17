@@ -24,9 +24,6 @@
                             <div class="panel-footer">
                                 <p class="text-center">{{ $key+1 }}位: {{ $item->count}} </p>
                             </div>
-                            <div class="panel-footer">
-                                <p class="text-center">{{ $key+1 }}位: {{ $item->count}} </p>
-                            </div>   
                         @endif
                     </div>
                 </div>
