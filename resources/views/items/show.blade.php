@@ -25,7 +25,7 @@
             <div class="want-users">
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">
-                        Wantしたユーザー
+                        Wantしたユーザ
                     </div>
                     <div class="panel-body">
                         @foreach ($want_users as $user)
@@ -37,7 +37,7 @@
             <div class="have-users">
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">
-                        Haveしたユーザー
+                        Haveしたユーザ
                     </div>
                     <div class="panel-body">
                         @foreach ($have_users as $user)
