@@ -10,6 +10,9 @@ use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
+    protected $redirectTo = '/';
+    protected $loginPath = '/login';
+    
     /*
     |--------------------------------------------------------------------------
     | Registration & Login Controller
@@ -23,8 +26,6 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
     
-    protected $redirectTo = '/';
-
     /**
      * Create a new authentication controller instance.
      *
